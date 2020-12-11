@@ -28,6 +28,15 @@
   color: #777;
 }
 
+.btn--green{
+  background-color: $color-primary;
+  color: $color-white;
+
+  &::after{
+    background-color: $color-primary;
+  }
+}
+
 .btn::after{
   content: "";
   display: inline-block;
